@@ -1,0 +1,44 @@
+﻿La génération a démarré 1/18/2014 6:22:26 PM.
+     1>Projet "F:\Dropbox\Dropbox\Cours\EFREI\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\E3D_ENGINE.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         F:\Programme\VS2012\VC\bin\x86_amd64\CL.exe /c /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Camera.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Cube.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Entity.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\label.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\main.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Material.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Matrix.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Mesh.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\MovableObject.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Node.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Object.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\ObjLoader.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Plane.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Polygone.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Render.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Screen.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\ScreenOpenCV.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\ScreenSFML.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp" "..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Vector4.cpp"
+         Vector4.cpp
+         Sphere.cpp
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(3): warning C4005: 'RAND_MAX' : redéfinition de macro
+                 F:\Programme\VS2012\VC\include\stdlib.h(154) : voir la définition précédente de 'RAND_MAX'
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(50): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(57): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(93): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(102): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(300): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(305): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+     1>..\..\..\..\..\..\..\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\Sphere.cpp(308): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+         ScreenSFML.cpp
+     1>f:\dropbox\dropbox\cours\efrei\l'3\s5\programmation c++\projet\moteur3d_last2\e3d_engine\e3d_engine\ScreenSFML.h(8): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+         ScreenOpenCV.cpp
+     1>f:\dropbox\dropbox\cours\efrei\l'3\s5\programmation c++\projet\moteur3d_last2\e3d_engine\e3d_engine\ScreenOpenCV.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/imgproc/imgproc.hpp' : No such file or directory
+         Screen.cpp
+         Render.cpp
+     1>f:\dropbox\dropbox\cours\efrei\l'3\s5\programmation c++\projet\moteur3d_last2\e3d_engine\e3d_engine\ScreenSFML.h(8): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+         Polygone.cpp
+         Plane.cpp
+         ObjLoader.cpp
+         Object.cpp
+         Node.cpp
+         MovableObject.cpp
+         Mesh.cpp
+         Matrix.cpp
+         Material.cpp
+         main.cpp
+     1>f:\dropbox\dropbox\cours\efrei\l'3\s5\programmation c++\projet\moteur3d_last2\e3d_engine\e3d_engine\ScreenSFML.h(8): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+         label.cpp
+         Entity.cpp
+         Cube.cpp
+         Camera.cpp
+     1>f:\dropbox\dropbox\cours\efrei\l'3\s5\programmation c++\projet\moteur3d_last2\e3d_engine\e3d_engine\ScreenSFML.h(8): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+         Génération de code en cours...
+     1>Génération du projet "F:\Dropbox\Dropbox\Cours\EFREI\L'3\S5\Programmation C++\Projet\Moteur3D_LAST2\E3D_ENGINE\E3D_ENGINE\E3D_ENGINE.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:06.45
