@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:E3D_ENGINE_MAC.xcodeproj">
+      location = "self:/Users/m4gyars/Documents/Project/E3D_ENGINE_MAC/E3D_ENGINE.xcodeproj">
    </FileRef>
 </Workspace>

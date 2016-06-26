@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE_MAC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = E3D_ENGINE_MAC; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = E3D_ENGINE; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCFE9851D1E8A6900EDF7C3 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		7DCFE9861D1E8A7900EDF7C3 /* header */ = {isa = PBXFileReference; lastKnownFileType = folder; path = header; sourceTree = "<group>"; };
 		7DCFE9871D1E8A8700EDF7C3 /* rsc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rsc; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		7DCFE92E1D1E82BD00EDF7C3 = {
 			isa = PBXGroup;
 			children = (
-				7DCFE9381D1E82BD00EDF7C3 /* E3D_ENGINE_MAC */,
+				7DCFE9381D1E82BD00EDF7C3 /* E3D_ENGINE */,
 				7DCFE9371D1E82BD00EDF7C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,12 +99,12 @@
 		7DCFE9371D1E82BD00EDF7C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE_MAC */,
+				7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7DCFE9381D1E82BD00EDF7C3 /* E3D_ENGINE_MAC */ = {
+		7DCFE9381D1E82BD00EDF7C3 /* E3D_ENGINE */ = {
 			isa = PBXGroup;
 			children = (
 				7DCFE9B01D1E8AF900EDF7C3 /* Camera.h */,
@@ -152,15 +152,15 @@
 				7DCFE9861D1E8A7900EDF7C3 /* header */,
 				7DCFE9851D1E8A6900EDF7C3 /* src */,
 			);
-			path = E3D_ENGINE_MAC;
+			path = E3D_ENGINE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7DCFE9351D1E82BD00EDF7C3 /* E3D_ENGINE_MAC */ = {
+		7DCFE9351D1E82BD00EDF7C3 /* E3D_ENGINE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DCFE9421D1E82BD00EDF7C3 /* Build configuration list for PBXNativeTarget "E3D_ENGINE_MAC" */;
+			buildConfigurationList = 7DCFE9421D1E82BD00EDF7C3 /* Build configuration list for PBXNativeTarget "E3D_ENGINE" */;
 			buildPhases = (
 				7DCFE9331D1E82BD00EDF7C3 /* Sources */,
 				7DCFE9341D1E82BD00EDF7C3 /* Frameworks */,
@@ -169,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = E3D_ENGINE_MAC;
+			name = E3D_ENGINE;
 			productName = E3D_ENGINE_MAC;
-			productReference = 7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE_MAC */;
+			productReference = 7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7DCFE9321D1E82BD00EDF7C3 /* Build configuration list for PBXProject "E3D_ENGINE_MAC" */;
+			buildConfigurationList = 7DCFE9321D1E82BD00EDF7C3 /* Build configuration list for PBXProject "E3D_ENGINE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DCFE9351D1E82BD00EDF7C3 /* E3D_ENGINE_MAC */,
+				7DCFE9351D1E82BD00EDF7C3 /* E3D_ENGINE */,
 			);
 		};
 /* End PBXProject section */
@@ -333,21 +333,21 @@
 		7DCFE9431D1E82BD00EDF7C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = E3D_ENGINE;
 			};
 			name = Debug;
 		};
 		7DCFE9441D1E82BD00EDF7C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = E3D_ENGINE;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7DCFE9321D1E82BD00EDF7C3 /* Build configuration list for PBXProject "E3D_ENGINE_MAC" */ = {
+		7DCFE9321D1E82BD00EDF7C3 /* Build configuration list for PBXProject "E3D_ENGINE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DCFE9401D1E82BD00EDF7C3 /* Debug */,
@@ -356,13 +356,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DCFE9421D1E82BD00EDF7C3 /* Build configuration list for PBXNativeTarget "E3D_ENGINE_MAC" */ = {
+		7DCFE9421D1E82BD00EDF7C3 /* Build configuration list for PBXNativeTarget "E3D_ENGINE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DCFE9431D1E82BD00EDF7C3 /* Debug */,
 				7DCFE9441D1E82BD00EDF7C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

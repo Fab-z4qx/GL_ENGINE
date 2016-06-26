@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7DCFE9351D1E82BD00EDF7C3"
-               BuildableName = "E3D_ENGINE_MAC"
-               BlueprintName = "E3D_ENGINE_MAC"
-               ReferencedContainer = "container:E3D_ENGINE_MAC.xcodeproj">
+               BuildableName = "E3D_ENGINE"
+               BlueprintName = "E3D_ENGINE"
+               ReferencedContainer = "container:E3D_ENGINE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DCFE9351D1E82BD00EDF7C3"
-            BuildableName = "E3D_ENGINE_MAC"
-            BlueprintName = "E3D_ENGINE_MAC"
-            ReferencedContainer = "container:E3D_ENGINE_MAC.xcodeproj">
+            BuildableName = "E3D_ENGINE"
+            BlueprintName = "E3D_ENGINE"
+            ReferencedContainer = "container:E3D_ENGINE.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DCFE9351D1E82BD00EDF7C3"
-            BuildableName = "E3D_ENGINE_MAC"
-            BlueprintName = "E3D_ENGINE_MAC"
-            ReferencedContainer = "container:E3D_ENGINE_MAC.xcodeproj">
+            BuildableName = "E3D_ENGINE"
+            BlueprintName = "E3D_ENGINE"
+            ReferencedContainer = "container:E3D_ENGINE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DCFE9351D1E82BD00EDF7C3"
-            BuildableName = "E3D_ENGINE_MAC"
-            BlueprintName = "E3D_ENGINE_MAC"
-            ReferencedContainer = "container:E3D_ENGINE_MAC.xcodeproj">
+            BuildableName = "E3D_ENGINE"
+            BlueprintName = "E3D_ENGINE"
+            ReferencedContainer = "container:E3D_ENGINE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
