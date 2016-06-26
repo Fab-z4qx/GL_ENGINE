@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Camera.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Config.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Cube.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Entity.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\label.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\main.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Material.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Matrix.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Mesh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\MovableObject.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Node.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Object.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\ObjLoader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Plane.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Polygone.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Render.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Screen.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\ScreenOpenCV.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\ScreenSFML.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Sphere.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Vector4.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Camera.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Cube.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Entity.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\label.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Material.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Matrix.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Mesh.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\MovableObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Node.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Object.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\ObjLoader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Plane.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Polygone.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Render.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Screen.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\ScreenOpenCV.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\ScreenSFML.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Sphere.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\L%273\S5\Programmation C++\Projet\Moteur3D_Perso\E3D_ENGINE\E3D_ENGINE\Vector4.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

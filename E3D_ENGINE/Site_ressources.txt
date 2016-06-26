@@ -1,0 +1,47 @@
+
+/* Divers */
+http://fvirtman.free.fr/deim/index.html
+http://www-igm.univ-mlv.fr/~dr/XPOSE2010/Moteurs3D/index.html#but
+http://vlad06700.net84.net/C3D.php
+http://archive.gamedev.net/archive/reference/
+
+/* Projection */
+!!! http://www.scratchapixel.com/lessons/3d-advanced-lessons/perspective-and-orthographic-projection-matrix/perspective-projection-matrix/ !!!
+!!! http://www.lighthouse3d.com/tutorials/view-frustum-culling/
+
+http://en.wikipedia.org/wiki/3D_projection
+http://users.ece.gatech.edu/lanterma/mpg10/mpglecture04f10_3dto2dproj.pdf
+http://ethernety.free.fr/programmation/chapitre3d/chapitre1.html
+http://gamedev.stackexchange.com/questions/61406/what-is-the-logic-behind-a-3d-projection-camera-perspective
+http://stackoverflow.com/questions/8633034/basic-render-3d-perspective-projection-onto-2d-screen-with-camera-without-openg
+http://www.geeks3d.com/20090729/howto-perspective-projection-matrix-in-opengl/
+http://stackoverflow.com/questions/349050/calculating-a-lookat-matrix
+
+/* Camera */  
+http://fr.wikipedia.org/wiki/Rast%C3%A9risation
+http://fr.wikipedia.org/wiki/Moteur_3D
+http://www.songho.ca/opengl/gl_projectionmatrix.html
+http://www.scratchapixel.com/lessons/3d-advanced-lessons/perspective-and-orthographic-projection-matrix/perspective-projection-matrix/
+
+
+https://github.com/libgdx/libgdx/wiki/Screen-%26-viewport
+
+/*view_frustum_culling*/
+http://cgvr.cs.uni-bremen.de/teaching/cg_literatur/lighthouse3d_view_frustum_culling/index.html
+
+/* Models */
+http://fr.openclassrooms.com/forum/sujet/blender-opengl-54751
+http://jeux.developpez.com/faq/3d/?page=techniques#TECHNIQUES_format_modele
+http://people.sc.fsu.edu/~jburkardt/data/obj/obj.html
+http://fr.openclassrooms.com/forum/sujet/opengl-importation-58836
+http://fr.openclassrooms.com/forum/sujet/presentation-visualiseur-de-fichiers-3d-31946
+http://jeux.developpez.com/telecharger/index/categorie/153/Codes-sources-OpenGL
+https://code.google.com/p/lib3ds/
+http://www.developpez.net/forums/d216636/applications/developpement-2d-3d-jeux/contribuez/opengl-premiere-application-newton-engine/
+
+http://www.developpez.net/forums/d236012/applications/developpement-2d-3d-jeux/api-graphiques/opengl/loader-wavefront-obj/
+
+ 
+
+http://scriptionary.com/2009/02/17/simple-scene-graph-in-c/
+http://fr.openclassrooms.com/informatique/cours/charger-des-fichiers-obj/modele-dynamique

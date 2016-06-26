@@ -1,0 +1,1 @@
+Voici un exemple de feuille de propriété pour visual studio 2012. Il permet d'utiliser les librairie SFML et OpenCV en version 64bit Release. (Il faut biensur changer le chemin d'acces vers les librairies dans ces fichiers).
