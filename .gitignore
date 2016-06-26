@@ -95,3 +95,8 @@ E3D_ENGINE/x64/Release/ScreenSFML.obj
 E3D_ENGINE/x64/Release/Sphere.obj
 E3D_ENGINE/x64/Release/vc110.pdb
 E3D_ENGINE/x64/Release/Vector4.obj
+E3D_ENGINE.VC.db
+.vs/E3D_ENGINE/v14/.suo
+E3D_ENGINE/E3D_ENGINE.vcxproj
+E3D_ENGINE/E3D_ENGINE.vcxproj.filters
+E3D_ENGINE/E3D_ENGINE.vcxproj.user

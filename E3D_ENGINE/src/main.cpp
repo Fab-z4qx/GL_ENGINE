@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "main.h"
+#include <chrono>
 
 using namespace std;
 using namespace e3d;
@@ -42,9 +43,9 @@ void exemple()
 	cube.rotateY(PI/6);
 	en6.scale(7,7,7);
 
-	Label l("labeltest","test");
-	l.translate(50,0,0);
-	l.setColor(0,255,255);
+	//Label l("labeltest","test");
+	//l.translate(50,0,0);
+	//l.setColor(0,255,255);
 
 	Node n2(&n,"subnode"); //attache automatiquement le nouveau noeuds n2 à n
 	n2.attachMovableObject(&myen3);
@@ -62,7 +63,7 @@ void exemple()
 	myen5.rotateX(PI/6);
 
 	n.attachMovableObject(&en6);
-	n.attachMovableObject(&l);
+//	n.attachMovableObject(&l);
 
 	Vector4 camPos(-25,+25,0,1); //position de la cam
 	double fov = 10;
@@ -72,13 +73,29 @@ void exemple()
 	Render r(&cam,&n,"Experiment",e3d_SFMLRender); 
 
 	en6.rotateX(PI/6);
+	
+	int frames = 0;
+	auto start = std::chrono::system_clock::now();
+	std::chrono::duration<double, std::milli> diff;
 	while(1)
 	{
 		r.clean(); //On efface l'image
-		n.rotateY(PI/800);
-		en6.rotateX(PI/25);
+		for (int i = 0; i < 100000; i++) {
+			n.rotateY(PI / 8000);
+			en6.rotateX(PI / 2500);
+		}
 		r.start(); //On fais le rendu à partir du RootNode
 		r.update(); //On met à jour l'image
+
+		diff = std::chrono::system_clock::now() - start;
+		if (diff.count() > 1000) {
+			std::cout << "Frame : " << frames << std::endl;
+			std::cout << diff.count() << std::endl;
+			std::cout << "FPS : " << (1000.0*frames) / diff.count() << std::endl;
+			start = std::chrono::system_clock::now();
+			frames = 0;
+		}
+		frames++;
 	}	
 
 	Object::cleanPool();

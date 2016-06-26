@@ -7,4 +7,4 @@
 /* Mode 2 => Compilation uniquement avec SFML
 /* Mode 3 => Compilation avec SFML + OpenCV */
 
-#define RENDER_SYS 3
+#define RENDER_SYS 2
