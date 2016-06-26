@@ -1,5 +1,8 @@
 #include "Vector4.h"
-#include <cmath>
+
+#ifdef __APPLE__
+    #include <cmath>
+#endif
 
 namespace e3d{
 

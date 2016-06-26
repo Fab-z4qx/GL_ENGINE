@@ -1,7 +1,10 @@
 #include "Matrix.h"
 #include <iomanip>
-#include <cmath>
-#include <float.h>
+
+#ifdef __APPLE__
+    #include <cmath>
+    #include <float.h>
+#endif
 
 namespace e3d {
 
