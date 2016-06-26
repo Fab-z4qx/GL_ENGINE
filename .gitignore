@@ -1,2 +1,8 @@
 x64/
 x64/*
+E3D_ENGINE/Debug/*
+E3D_ENGINE/Release/*
+Release/*
+Debug/*
+E3D_ENGINE/x64/*
+x64/*
