@@ -19,9 +19,11 @@ ScreenSFML::~ScreenSFML(void)
 
 void ScreenSFML::init()
 {
-	_window.create(VideoMode(_height, _width), _windowName);
+	sf::VideoMode vm(_height, _width);
+	_window.create(vm, _windowName);
 	_window.clear();
-	_window.setFramerateLimit(60);
+	_window.setFramerateLimit(0);
+	
 }
 
 void ScreenSFML::render()
@@ -60,7 +62,9 @@ void ScreenSFML::update()
 	if(_point.size() != 0)
 		_window.draw(&_point[0], (int)_point.size(), sf::Points);
 
-	_window.draw(_label[0]);
+	if (!_label.empty()) {
+		_window.draw(_label[0]);
+	}
 
     _window.display();
 	_line.clear(); //On vide les buffers
@@ -92,6 +96,7 @@ void ScreenSFML::drawLabel(string label, double x, double y, int red, int green,
 		}
 	}
 
+	/*
 	sf::Text text;
 	text.setFont(*_font); // font is a sf::Font
 
@@ -111,6 +116,7 @@ void ScreenSFML::drawLabel(string label, double x, double y, int red, int green,
 	text.setPosition( (float)x, (float)y);
 
 	_label.push_back(text);
+	*/
 }
 
 }
