@@ -30,9 +30,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D904E781D208D7400166DAF /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		7D904E791D208D8700166DAF /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = include/Camera.h; sourceTree = "<group>"; };
+		7D904E7A1D208D8700166DAF /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = include/Config.h; sourceTree = "<group>"; };
+		7D904E7B1D208D8700166DAF /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = include/Cube.h; sourceTree = "<group>"; };
+		7D904E7C1D208D8700166DAF /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = include/Entity.h; sourceTree = "<group>"; };
+		7D904E7D1D208D8700166DAF /* label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = label.h; path = include/label.h; sourceTree = "<group>"; };
+		7D904E7E1D208D8700166DAF /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = include/main.h; sourceTree = "<group>"; };
+		7D904E7F1D208D8700166DAF /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Material.h; path = include/Material.h; sourceTree = "<group>"; };
+		7D904E801D208D8700166DAF /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = include/Matrix.h; sourceTree = "<group>"; };
+		7D904E811D208D8700166DAF /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mesh.h; path = include/Mesh.h; sourceTree = "<group>"; };
+		7D904E821D208D8700166DAF /* MovableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovableObject.h; path = include/MovableObject.h; sourceTree = "<group>"; };
+		7D904E831D208D8700166DAF /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = include/Node.h; sourceTree = "<group>"; };
+		7D904E841D208D8700166DAF /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object.h; path = include/Object.h; sourceTree = "<group>"; };
+		7D904E851D208D8700166DAF /* ObjLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjLoader.h; path = include/ObjLoader.h; sourceTree = "<group>"; };
+		7D904E861D208D8700166DAF /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plane.h; path = include/Plane.h; sourceTree = "<group>"; };
+		7D904E871D208D8700166DAF /* Polygone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Polygone.h; path = include/Polygone.h; sourceTree = "<group>"; };
+		7D904E881D208D8700166DAF /* Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Render.h; path = include/Render.h; sourceTree = "<group>"; };
+		7D904E891D208D8700166DAF /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = include/Screen.h; sourceTree = "<group>"; };
+		7D904E8A1D208D8700166DAF /* ScreenOpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenOpenCV.h; path = include/ScreenOpenCV.h; sourceTree = "<group>"; };
+		7D904E8B1D208D8700166DAF /* ScreenSFML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenSFML.h; path = include/ScreenSFML.h; sourceTree = "<group>"; };
+		7D904E8C1D208D8700166DAF /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = include/Sphere.h; sourceTree = "<group>"; };
+		7D904E8D1D208D8700166DAF /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector4.h; path = include/Vector4.h; sourceTree = "<group>"; };
 		7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = E3D_ENGINE; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCFE9851D1E8A6900EDF7C3 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
-		7DCFE9861D1E8A7900EDF7C3 /* header */ = {isa = PBXFileReference; lastKnownFileType = folder; path = header; sourceTree = "<group>"; };
 		7DCFE9871D1E8A8700EDF7C3 /* rsc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rsc; sourceTree = "<group>"; };
 		7DCFE9881D1E8AE000EDF7C3 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = src/Camera.cpp; sourceTree = "<group>"; };
 		7DCFE9891D1E8AE000EDF7C3 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Cube.cpp; path = src/Cube.cpp; sourceTree = "<group>"; };
@@ -54,27 +75,6 @@
 		7DCFE9991D1E8AE000EDF7C3 /* ScreenSFML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreenSFML.cpp; path = src/ScreenSFML.cpp; sourceTree = "<group>"; };
 		7DCFE99A1D1E8AE000EDF7C3 /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = src/Sphere.cpp; sourceTree = "<group>"; };
 		7DCFE99B1D1E8AE000EDF7C3 /* Vector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector4.cpp; path = src/Vector4.cpp; sourceTree = "<group>"; };
-		7DCFE9B01D1E8AF900EDF7C3 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = header/Camera.h; sourceTree = "<group>"; };
-		7DCFE9B11D1E8AF900EDF7C3 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = header/Config.h; sourceTree = "<group>"; };
-		7DCFE9B21D1E8AF900EDF7C3 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = header/Cube.h; sourceTree = "<group>"; };
-		7DCFE9B31D1E8AF900EDF7C3 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = header/Entity.h; sourceTree = "<group>"; };
-		7DCFE9B41D1E8AF900EDF7C3 /* label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = label.h; path = header/label.h; sourceTree = "<group>"; };
-		7DCFE9B51D1E8AF900EDF7C3 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = header/main.h; sourceTree = "<group>"; };
-		7DCFE9B61D1E8AF900EDF7C3 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Material.h; path = header/Material.h; sourceTree = "<group>"; };
-		7DCFE9B71D1E8AF900EDF7C3 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = header/Matrix.h; sourceTree = "<group>"; };
-		7DCFE9B81D1E8AF900EDF7C3 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mesh.h; path = header/Mesh.h; sourceTree = "<group>"; };
-		7DCFE9B91D1E8AF900EDF7C3 /* MovableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovableObject.h; path = header/MovableObject.h; sourceTree = "<group>"; };
-		7DCFE9BA1D1E8AF900EDF7C3 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = header/Node.h; sourceTree = "<group>"; };
-		7DCFE9BB1D1E8AF900EDF7C3 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object.h; path = header/Object.h; sourceTree = "<group>"; };
-		7DCFE9BC1D1E8AF900EDF7C3 /* ObjLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjLoader.h; path = header/ObjLoader.h; sourceTree = "<group>"; };
-		7DCFE9BD1D1E8AF900EDF7C3 /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plane.h; path = header/Plane.h; sourceTree = "<group>"; };
-		7DCFE9BE1D1E8AF900EDF7C3 /* Polygone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Polygone.h; path = header/Polygone.h; sourceTree = "<group>"; };
-		7DCFE9BF1D1E8AF900EDF7C3 /* Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Render.h; path = header/Render.h; sourceTree = "<group>"; };
-		7DCFE9C01D1E8AF900EDF7C3 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = header/Screen.h; sourceTree = "<group>"; };
-		7DCFE9C11D1E8AF900EDF7C3 /* ScreenOpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenOpenCV.h; path = header/ScreenOpenCV.h; sourceTree = "<group>"; };
-		7DCFE9C21D1E8AF900EDF7C3 /* ScreenSFML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenSFML.h; path = header/ScreenSFML.h; sourceTree = "<group>"; };
-		7DCFE9C31D1E8AF900EDF7C3 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = header/Sphere.h; sourceTree = "<group>"; };
-		7DCFE9C41D1E8AF900EDF7C3 /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector4.h; path = header/Vector4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,27 +107,27 @@
 		7DCFE9381D1E82BD00EDF7C3 /* E3D_ENGINE */ = {
 			isa = PBXGroup;
 			children = (
-				7DCFE9B01D1E8AF900EDF7C3 /* Camera.h */,
-				7DCFE9B11D1E8AF900EDF7C3 /* Config.h */,
-				7DCFE9B21D1E8AF900EDF7C3 /* Cube.h */,
-				7DCFE9B31D1E8AF900EDF7C3 /* Entity.h */,
-				7DCFE9B41D1E8AF900EDF7C3 /* label.h */,
-				7DCFE9B51D1E8AF900EDF7C3 /* main.h */,
-				7DCFE9B61D1E8AF900EDF7C3 /* Material.h */,
-				7DCFE9B71D1E8AF900EDF7C3 /* Matrix.h */,
-				7DCFE9B81D1E8AF900EDF7C3 /* Mesh.h */,
-				7DCFE9B91D1E8AF900EDF7C3 /* MovableObject.h */,
-				7DCFE9BA1D1E8AF900EDF7C3 /* Node.h */,
-				7DCFE9BB1D1E8AF900EDF7C3 /* Object.h */,
-				7DCFE9BC1D1E8AF900EDF7C3 /* ObjLoader.h */,
-				7DCFE9BD1D1E8AF900EDF7C3 /* Plane.h */,
-				7DCFE9BE1D1E8AF900EDF7C3 /* Polygone.h */,
-				7DCFE9BF1D1E8AF900EDF7C3 /* Render.h */,
-				7DCFE9C01D1E8AF900EDF7C3 /* Screen.h */,
-				7DCFE9C11D1E8AF900EDF7C3 /* ScreenOpenCV.h */,
-				7DCFE9C21D1E8AF900EDF7C3 /* ScreenSFML.h */,
-				7DCFE9C31D1E8AF900EDF7C3 /* Sphere.h */,
-				7DCFE9C41D1E8AF900EDF7C3 /* Vector4.h */,
+				7D904E791D208D8700166DAF /* Camera.h */,
+				7D904E7A1D208D8700166DAF /* Config.h */,
+				7D904E7B1D208D8700166DAF /* Cube.h */,
+				7D904E7C1D208D8700166DAF /* Entity.h */,
+				7D904E7D1D208D8700166DAF /* label.h */,
+				7D904E7E1D208D8700166DAF /* main.h */,
+				7D904E7F1D208D8700166DAF /* Material.h */,
+				7D904E801D208D8700166DAF /* Matrix.h */,
+				7D904E811D208D8700166DAF /* Mesh.h */,
+				7D904E821D208D8700166DAF /* MovableObject.h */,
+				7D904E831D208D8700166DAF /* Node.h */,
+				7D904E841D208D8700166DAF /* Object.h */,
+				7D904E851D208D8700166DAF /* ObjLoader.h */,
+				7D904E861D208D8700166DAF /* Plane.h */,
+				7D904E871D208D8700166DAF /* Polygone.h */,
+				7D904E881D208D8700166DAF /* Render.h */,
+				7D904E891D208D8700166DAF /* Screen.h */,
+				7D904E8A1D208D8700166DAF /* ScreenOpenCV.h */,
+				7D904E8B1D208D8700166DAF /* ScreenSFML.h */,
+				7D904E8C1D208D8700166DAF /* Sphere.h */,
+				7D904E8D1D208D8700166DAF /* Vector4.h */,
 				7DCFE9881D1E8AE000EDF7C3 /* Camera.cpp */,
 				7DCFE9891D1E8AE000EDF7C3 /* Cube.cpp */,
 				7DCFE98A1D1E8AE000EDF7C3 /* Entity.cpp */,
@@ -148,8 +148,8 @@
 				7DCFE9991D1E8AE000EDF7C3 /* ScreenSFML.cpp */,
 				7DCFE99A1D1E8AE000EDF7C3 /* Sphere.cpp */,
 				7DCFE99B1D1E8AE000EDF7C3 /* Vector4.cpp */,
+				7D904E781D208D7400166DAF /* include */,
 				7DCFE9871D1E8A8700EDF7C3 /* rsc */,
-				7DCFE9861D1E8A7900EDF7C3 /* header */,
 				7DCFE9851D1E8A6900EDF7C3 /* src */,
 			);
 			path = E3D_ENGINE;
