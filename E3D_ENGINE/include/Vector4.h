@@ -17,7 +17,7 @@ public:
 	~Vector4(void);
 
 	//methode 
-	void Vector4::printf();
+	void printf();
 	Vector4 add(const Vector4& x);
 	Vector4 sous(const Vector4& x);
 	Vector4 mult(const double& x);

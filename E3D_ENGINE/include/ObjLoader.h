@@ -38,10 +38,10 @@ private:
      //std::vector<Material*> materiaux;
 
 public:
-	ObjLoader::ObjLoader();
+	ObjLoader();
 	~ObjLoader(void);
 
-	Vertex ObjLoader::getInt3(const char*& token);
+	Vertex getInt3(const char*& token);
 	Mesh* load(const string& name, const string& filename);
 	void charger_mtl(string nom);
 };

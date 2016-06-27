@@ -1,7 +1,14 @@
 
 #include "Matrix.h"
 #include <iomanip>
-#include <omp.h>
+
+#if defined(__APPLE__) || defined (__MACH__)
+    #include <cmath>
+    #include <float.h>
+#endif
+#if defined (_WIN32) || defined (_WIN64)
+    #include <omp.h>
+#endif
 
 namespace e3d {
 
@@ -78,7 +85,7 @@ Matrix Matrix::getScale(Vector4& v)
 	Matrix trans(v._v[0],0.0,0.0,0.0,
 				0.0,v._v[1],0.0,0.0, 
 				0.0,0.0,v._v[2],0.0,
-				0.0,0.0,0.0,v._v[4]);
+				0.0,0.0,0.0,v._v[3]);
 
 	return trans; 
 }

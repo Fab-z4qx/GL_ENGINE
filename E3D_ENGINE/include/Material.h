@@ -13,8 +13,8 @@ private:
 
 public:
 
-	Material::Material(double r,double g,double b,string n);
-	Material::Material(Material *mat);
+	Material(double r,double g,double b,string n);
+	Material(Material *mat);
 	~Material(void);
 
 	Vector4& getColor ()		 { return _color; }

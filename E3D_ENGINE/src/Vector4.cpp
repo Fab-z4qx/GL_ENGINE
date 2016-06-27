@@ -1,4 +1,5 @@
 #include "Vector4.h"
+#include <cmath>
 
 namespace e3d{
 

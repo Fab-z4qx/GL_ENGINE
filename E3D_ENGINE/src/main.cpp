@@ -102,9 +102,11 @@ void exemple()
 	
 }
 
-void main(void)
+int main(void)
 {
 	exemple();
     system("PAUSE");
+    
+    return 0;
 }
 

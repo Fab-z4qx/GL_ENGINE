@@ -1,5 +1,6 @@
 #include "Camera.h"
 
+#include <cmath>
 
 namespace e3d {
 
