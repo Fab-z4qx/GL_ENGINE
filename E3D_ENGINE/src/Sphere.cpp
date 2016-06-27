@@ -31,7 +31,7 @@ Sphere::Sphere(const string& name,Vector4 center, double r, double n): Mesh(name
     int e;
     const double PI = 3.141592653589793238462643383279502884197;
     double segmentRad = PI / 2 / (n + 1);
-    int numberOfSeparators = (int)(4 * n + 4);
+    int numberOfSeparators = 4 * n + 4;
     int p1,p2,p3;
     
 	/* Vertex */
