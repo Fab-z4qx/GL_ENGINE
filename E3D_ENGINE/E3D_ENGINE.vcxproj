@@ -21,10 +21,6 @@
       <Configuration>Release</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|x64">
-      <Configuration>Release</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Camera.cpp" />
@@ -49,27 +45,27 @@
     <ClCompile Include="src\Vector4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header\Camera.h" />
-    <ClInclude Include="header\Config.h" />
-    <ClInclude Include="header\Cube.h" />
-    <ClInclude Include="header\Entity.h" />
-    <ClInclude Include="header\label.h" />
-    <ClInclude Include="header\main.h" />
-    <ClInclude Include="header\Material.h" />
-    <ClInclude Include="header\Matrix.h" />
-    <ClInclude Include="header\Mesh.h" />
-    <ClInclude Include="header\MovableObject.h" />
-    <ClInclude Include="header\Node.h" />
-    <ClInclude Include="header\Object.h" />
-    <ClInclude Include="header\ObjLoader.h" />
-    <ClInclude Include="header\Plane.h" />
-    <ClInclude Include="header\Polygone.h" />
-    <ClInclude Include="header\Render.h" />
-    <ClInclude Include="header\Screen.h" />
-    <ClInclude Include="header\ScreenOpenCV.h" />
-    <ClInclude Include="header\ScreenSFML.h" />
-    <ClInclude Include="header\Sphere.h" />
-    <ClInclude Include="header\Vector4.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\Config.h" />
+    <ClInclude Include="include\Cube.h" />
+    <ClInclude Include="include\Entity.h" />
+    <ClInclude Include="include\label.h" />
+    <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\Material.h" />
+    <ClInclude Include="include\Matrix.h" />
+    <ClInclude Include="include\Mesh.h" />
+    <ClInclude Include="include\MovableObject.h" />
+    <ClInclude Include="include\Node.h" />
+    <ClInclude Include="include\Object.h" />
+    <ClInclude Include="include\ObjLoader.h" />
+    <ClInclude Include="include\Plane.h" />
+    <ClInclude Include="include\Polygone.h" />
+    <ClInclude Include="include\Render.h" />
+    <ClInclude Include="include\Screen.h" />
+    <ClInclude Include="include\ScreenOpenCV.h" />
+    <ClInclude Include="include\screensfml.h" />
+    <ClInclude Include="include\Sphere.h" />
+    <ClInclude Include="include\Vector4.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E6F6CD9D-411B-4ACA-935A-D0D8DEDA4A6D}</ProjectGuid>
@@ -104,13 +100,6 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_x64_sfml|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
@@ -134,11 +123,6 @@
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_x64_sfml|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="OpenCV_64bit_release.props" />
-    <Import Project="SFML2.1_64bit_release.props" />
-  </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release_x64_sfml|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="SFML2.1_64bit_release.props" />
@@ -146,18 +130,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VC_IncludePath)include;</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VC_IncludePath)include\</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_x64_sfml|Win32'">
     <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VC_SourcePath)include</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_x64_sfml|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -223,26 +207,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
-      <Optimization>MaxSpeed</Optimization>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release_x64_sfml|x64'">

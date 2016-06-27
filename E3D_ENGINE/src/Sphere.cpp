@@ -2,15 +2,6 @@
 
 namespace e3d {
     
-<<<<<<< HEAD
-Sphere::Sphere(const string& name,Vector4 center, double r, double n): Mesh(name)
-{   
-    int e;
-    const double PI = 3.141592653589793238462643383279502884197;
-    double segmentRad = PI / 2 / (n + 1);
-    int numberOfSeparators = 4 * n + 4;
-    int p1,p2,p3;
-=======
     Sphere::Sphere(const string& name,Vector4 center, double radius, double segments, double rings): Mesh(name)
     {
         const double PI = 3.141592653589793238462643383279502884197;
@@ -34,7 +25,7 @@ Sphere::Sphere(const string& name,Vector4 center, double r, double n): Mesh(name
         }
         _polygone.push_back(Polygone(0,0,0,0));
     }
->>>>>>> 6311b33a94268881721d336be1ab15b45426d5dd
+
     
     Sphere::Sphere(const string& name,Vector4 center, double r, double n): Mesh(name)
     {
