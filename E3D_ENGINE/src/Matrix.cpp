@@ -1,12 +1,14 @@
 
 #include "Matrix.h"
 #include <iomanip>
-<<<<<<< HEAD:E3D_ENGINE/src/Matrix.cpp
-#include <cmath>
-#include <float.h>
-=======
-#include <omp.h>
->>>>>>> 47e9121904feb3e3991df4d9e3cf8491f07e8d55:E3D_ENGINE/src/Matrix.cpp
+
+#if defined(__APPLE__) || defined (__MACH__)
+    #include <cmath>
+    #include <float.h>
+#endif
+#if defined (_WIN32) || defined (_WIN64)
+    #include <omp.h>
+#endif
 
 namespace e3d {
 
