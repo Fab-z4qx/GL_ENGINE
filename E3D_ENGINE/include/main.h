@@ -9,4 +9,4 @@
 #include "Render.h"
 #include "ObjLoader.h"
 #include "label.h"
-
+#include "Debug.h"

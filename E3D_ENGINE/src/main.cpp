@@ -74,9 +74,10 @@ void exemple()
 
 	en6.rotateX(PI/6);
 	
-	int frames = 0;
-	auto start = std::chrono::system_clock::now();
-	std::chrono::duration<double, std::milli> diff;
+    Debug dbg;
+    
+    fpsCount fps;
+    dbg.fpsInit(&fps);
 	while(1)
 	{
 		r.clean(); //On efface l'image
@@ -87,19 +88,10 @@ void exemple()
 		r.start(); //On fais le rendu à partir du RootNode
 		r.update(); //On met à jour l'image
 
-		diff = std::chrono::system_clock::now() - start;
-		if (diff.count() > 1000) {
-			std::cout << "Frame : " << frames << std::endl;
-			std::cout << diff.count() << std::endl;
-			std::cout << "FPS : " << (1000.0*frames) / diff.count() << std::endl;
-			start = std::chrono::system_clock::now();
-			frames = 0;
-		}
-		frames++;
+        dbg.fpsMesure(&fps);
 	}	
 
 	Object::cleanPool();
-	
 }
 
 int main(void)

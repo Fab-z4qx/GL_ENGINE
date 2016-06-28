@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D9F1B411D23235E005633B9 /* Debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F1B401D23235E005633B9 /* Debug.cpp */; };
 		7DCFE99C1D1E8AE000EDF7C3 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9881D1E8AE000EDF7C3 /* Camera.cpp */; };
 		7DCFE99D1D1E8AE000EDF7C3 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9891D1E8AE000EDF7C3 /* Cube.cpp */; };
 		7DCFE99E1D1E8AE000EDF7C3 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE98A1D1E8AE000EDF7C3 /* Entity.cpp */; };
@@ -52,6 +53,8 @@
 		7D904E8B1D208D8700166DAF /* ScreenSFML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenSFML.h; path = include/ScreenSFML.h; sourceTree = "<group>"; };
 		7D904E8C1D208D8700166DAF /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = include/Sphere.h; sourceTree = "<group>"; };
 		7D904E8D1D208D8700166DAF /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector4.h; path = include/Vector4.h; sourceTree = "<group>"; };
+		7D9F1B3F1D232350005633B9 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Debug.h; path = include/Debug.h; sourceTree = "<group>"; };
+		7D9F1B401D23235E005633B9 /* Debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Debug.cpp; path = src/Debug.cpp; sourceTree = "<group>"; };
 		7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = E3D_ENGINE; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCFE9851D1E8A6900EDF7C3 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		7DCFE9871D1E8A8700EDF7C3 /* rsc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rsc; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		7DCFE9381D1E82BD00EDF7C3 /* E3D_ENGINE */ = {
 			isa = PBXGroup;
 			children = (
+				7D9F1B3F1D232350005633B9 /* Debug.h */,
 				7D904E791D208D8700166DAF /* Camera.h */,
 				7D904E7A1D208D8700166DAF /* Config.h */,
 				7D904E7B1D208D8700166DAF /* Cube.h */,
@@ -130,6 +134,7 @@
 				7D904E8D1D208D8700166DAF /* Vector4.h */,
 				7DCFE9881D1E8AE000EDF7C3 /* Camera.cpp */,
 				7DCFE9891D1E8AE000EDF7C3 /* Cube.cpp */,
+				7D9F1B401D23235E005633B9 /* Debug.cpp */,
 				7DCFE98A1D1E8AE000EDF7C3 /* Entity.cpp */,
 				7DCFE98B1D1E8AE000EDF7C3 /* label.cpp */,
 				7DCFE98C1D1E8AE000EDF7C3 /* main.cpp */,
@@ -212,6 +217,7 @@
 			files = (
 				7DCFE9A21D1E8AE000EDF7C3 /* Matrix.cpp in Sources */,
 				7DCFE99D1D1E8AE000EDF7C3 /* Cube.cpp in Sources */,
+				7D9F1B411D23235E005633B9 /* Debug.cpp in Sources */,
 				7DCFE9A81D1E8AE000EDF7C3 /* Plane.cpp in Sources */,
 				7DCFE9A61D1E8AE000EDF7C3 /* Object.cpp in Sources */,
 				7DCFE99E1D1E8AE000EDF7C3 /* Entity.cpp in Sources */,
