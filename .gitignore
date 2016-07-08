@@ -1,19 +1,12 @@
-<<<<<<< HEAD
 .DS_Store
 E3D_ENGINE.xcodeproj/project.xcworkspace/xcuserdata/m4gyars.xcuserdatad/UserInterfaceState.xcuserstate
 E3D_ENGINE.xcodeproj/*
-=======
 x64/
 x64/*
-<<<<<<< HEAD
->>>>>>> master
-=======
 E3D_ENGINE/Debug/*
 E3D_ENGINE/Release/*
 Release/*
 Debug/*
 E3D_ENGINE/x64/*
-x64/*
->>>>>>> 47e9121904feb3e3991df4d9e3cf8491f07e8d55
 .vs/E3D_ENGINE/v14/.suo
 release_x64_sfml/
