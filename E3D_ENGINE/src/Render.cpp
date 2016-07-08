@@ -2,7 +2,7 @@
 
 namespace e3d {
 
-Render::Render(Camera* cam, Node* rootNode, string screenName , int renderModeSysteme, int width,int height) : _camera(cam), _renderMode(renderModeSysteme), _rootNode(rootNode)
+Render::Render(Camera* cam, Node* rootNode, string screenName , int renderModeSysteme, int width, int height) : _camera(cam), _renderMode(renderModeSysteme), _rootNode(rootNode)
 {
 #if(RENDER_SYS == 1) //On utilisent OpenCV
 	_screen = new ScreenOpenCV(screenName,width,height,CV_8UC3);
@@ -12,6 +12,7 @@ Render::Render(Camera* cam, Node* rootNode, string screenName , int renderModeSy
 	_screen = new ScreenSFML(screenName,width,height,5);
 #endif
 
+    
 #if(RENDER_SYS == 3) //On laisse le choix à l'utilisateur 
 	if(renderModeSysteme == e3d_OpenCvRender){
 		_screen = new ScreenOpenCV(screenName,width,height,CV_8UC3);
@@ -19,6 +20,9 @@ Render::Render(Camera* cam, Node* rootNode, string screenName , int renderModeSy
 	else if(renderModeSysteme == e3d_SFMLRender){
 		_screen = new ScreenSFML(screenName,width,height,5);
 	}
+#endif
+#if(RENDER_SYS == 4) //SFML OPENGL
+    _screen = new ScreenGL(screenName,width,height,5);
 #endif
 }
 

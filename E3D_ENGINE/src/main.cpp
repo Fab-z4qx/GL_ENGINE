@@ -19,10 +19,10 @@ void exemple()
 	Entity myen3("Entitdy2",&s3);
 
 	Sphere s4("spdzqehre2",Vector4(0,0,0,1),10,10,10);
-	cout << s4 << endl;
+	//cout << s4 << endl;
 	Entity myen4("Entitdy2",&s4);
 
-	Sphere s5("spdzqehre2",Vector4(0,0,0,1),10,1);
+	Sphere s5("spdzqehre2",Vector4(0,0,0,1),30,5);
 	Entity myen5("Entitdy2",&s5);
 
 	Cube cu("cube",Vector4(0,0,0,1),50,50,50);
@@ -30,7 +30,7 @@ void exemple()
 
 	Node n("rootNode");	
 	n.attachMovableObject(&cube);
-	n.translate(20,-50,0);
+	n.translate(100,-50,0);
 	myen2.translate(-10,0,0);
 
 	ObjLoader loader;
@@ -47,16 +47,19 @@ void exemple()
 	//l.translate(50,0,0);
 	//l.setColor(0,255,255);
 
+    /*
 	Node n2(&n,"subnode"); //attache automatiquement le nouveau noeuds n2 à n
 	n2.attachMovableObject(&myen3);
 
 	Node n3(&n2,"subnode2");
 	n3.attachMovableObject(&myen4);
-
+     */
+     
 	Node n4(&n,"subNode3");
 	n4.attachMovableObject(&myen5);
 	n4.translate(-20,20,0);
-
+     
+    
 	n.translate(20,-15,0); 
 	myen.translate(20,0,0);
 	myen5.translate(100,0,0);
@@ -70,7 +73,7 @@ void exemple()
 	double neaR = 0.1, faR = 25;
 
 	Camera cam("Mycam",camPos,fov,neaR,faR);
-	Render r(&cam,&n,"Experiment",e3d_SFMLRender); 
+	Render r(&cam,&n,"Experiment", e3d_SFMLGLRender, 1280, 1280);
 
 	en6.rotateX(PI/6);
 	
@@ -81,10 +84,10 @@ void exemple()
 	while(1)
 	{
 		r.clean(); //On efface l'image
-		for (int i = 0; i < 100000; i++) {
-			n.rotateY(PI / 8000);
-			en6.rotateX(PI / 2500);
-		}
+		
+        n.rotateY(PI / 400);
+        en6.rotateX(PI / 2500);
+		
 		r.start(); //On fais le rendu à partir du RootNode
 		r.update(); //On met à jour l'image
 

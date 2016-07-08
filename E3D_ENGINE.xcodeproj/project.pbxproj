@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D9F1B411D23235E005633B9 /* Debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F1B401D23235E005633B9 /* Debug.cpp */; };
+		7D9F1B441D246217005633B9 /* ScreenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F1B431D246217005633B9 /* ScreenGL.cpp */; };
+		7D9F1B461D247632005633B9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9F1B451D247632005633B9 /* OpenGL.framework */; };
 		7DCFE99C1D1E8AE000EDF7C3 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9881D1E8AE000EDF7C3 /* Camera.cpp */; };
 		7DCFE99D1D1E8AE000EDF7C3 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE9891D1E8AE000EDF7C3 /* Cube.cpp */; };
 		7DCFE99E1D1E8AE000EDF7C3 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFE98A1D1E8AE000EDF7C3 /* Entity.cpp */; };
@@ -55,6 +57,9 @@
 		7D904E8D1D208D8700166DAF /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector4.h; path = include/Vector4.h; sourceTree = "<group>"; };
 		7D9F1B3F1D232350005633B9 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Debug.h; path = include/Debug.h; sourceTree = "<group>"; };
 		7D9F1B401D23235E005633B9 /* Debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Debug.cpp; path = src/Debug.cpp; sourceTree = "<group>"; };
+		7D9F1B421D24620A005633B9 /* ScreenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenGL.h; path = include/ScreenGL.h; sourceTree = "<group>"; };
+		7D9F1B431D246217005633B9 /* ScreenGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreenGL.cpp; path = src/ScreenGL.cpp; sourceTree = "<group>"; };
+		7D9F1B451D247632005633B9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		7DCFE9361D1E82BD00EDF7C3 /* E3D_ENGINE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = E3D_ENGINE; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCFE9851D1E8A6900EDF7C3 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		7DCFE9871D1E8A8700EDF7C3 /* rsc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rsc; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9F1B461D247632005633B9 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +100,7 @@
 		7DCFE92E1D1E82BD00EDF7C3 = {
 			isa = PBXGroup;
 			children = (
+				7D9F1B451D247632005633B9 /* OpenGL.framework */,
 				7DCFE9381D1E82BD00EDF7C3 /* E3D_ENGINE */,
 				7DCFE9371D1E82BD00EDF7C3 /* Products */,
 			);
@@ -128,6 +135,7 @@
 				7D904E871D208D8700166DAF /* Polygone.h */,
 				7D904E881D208D8700166DAF /* Render.h */,
 				7D904E891D208D8700166DAF /* Screen.h */,
+				7D9F1B421D24620A005633B9 /* ScreenGL.h */,
 				7D904E8A1D208D8700166DAF /* ScreenOpenCV.h */,
 				7D904E8B1D208D8700166DAF /* ScreenSFML.h */,
 				7D904E8C1D208D8700166DAF /* Sphere.h */,
@@ -149,6 +157,7 @@
 				7DCFE9951D1E8AE000EDF7C3 /* Polygone.cpp */,
 				7DCFE9961D1E8AE000EDF7C3 /* Render.cpp */,
 				7DCFE9971D1E8AE000EDF7C3 /* Screen.cpp */,
+				7D9F1B431D246217005633B9 /* ScreenGL.cpp */,
 				7DCFE9981D1E8AE000EDF7C3 /* ScreenOpenCV.cpp */,
 				7DCFE9991D1E8AE000EDF7C3 /* ScreenSFML.cpp */,
 				7DCFE99A1D1E8AE000EDF7C3 /* Sphere.cpp */,
@@ -223,6 +232,7 @@
 				7DCFE99E1D1E8AE000EDF7C3 /* Entity.cpp in Sources */,
 				7DCFE9A11D1E8AE000EDF7C3 /* Material.cpp in Sources */,
 				7DCFE99F1D1E8AE000EDF7C3 /* label.cpp in Sources */,
+				7D9F1B441D246217005633B9 /* ScreenGL.cpp in Sources */,
 				7DCFE9A01D1E8AE000EDF7C3 /* main.cpp in Sources */,
 				7DCFE9A91D1E8AE000EDF7C3 /* Polygone.cpp in Sources */,
 				7DCFE9A41D1E8AE000EDF7C3 /* MovableObject.cpp in Sources */,

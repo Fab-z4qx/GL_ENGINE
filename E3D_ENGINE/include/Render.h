@@ -12,16 +12,14 @@ matrice de projection et ainsi afficher les points à l'écran */
 #include "Screen.h"
 #include "ScreenSFML.h"
 #include "ScreenOpenCV.h"
+#include "ScreenGl.h"
 #include "Node.h"
 #include "Label.h"
 #include "Entity.h"
 
-#if(RENDER_SYS==1 || RENDER_SYS==3)
-	const unsigned int e3d_OpenCvRender = 0;
-#endif
-#if(RENDER_SYS==2 || RENDER_SYS==3)
-	const unsigned int e3d_SFMLRender = 1;
-#endif
+const unsigned int e3d_OpenCvRender = 0;
+const unsigned int e3d_SFMLRender = 1;
+const unsigned int e3d_SFMLGLRender = 2;
 
 namespace e3d {
 class Render

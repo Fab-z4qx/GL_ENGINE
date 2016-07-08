@@ -3,10 +3,14 @@
 #include "Screen.h"
 #include "Config.h"
 
-#if (RENDER_SYS == 3 || RENDER_SYS == 2) //On regarde les options de compilation
+#if (RENDER_SYS == 3 || RENDER_SYS == 2 || RENDER_SYS == 4) //On regarde les options de compilation
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+
+#if (RENDER_SYS == 4)
+    #include <SFML/OpenGL.hpp>
+#endif
 
 using namespace sf;
 

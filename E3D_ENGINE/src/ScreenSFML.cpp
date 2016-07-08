@@ -1,7 +1,8 @@
 #include "ScreenSFML.h"
 
-#if(RENDER_SYS == 2 || RENDER_SYS == 3)
+#if(RENDER_SYS == 2 || RENDER_SYS == 3 || RENDER_SYS == 4)
 namespace e3d {
+    
 ScreenSFML::ScreenSFML(string name, int width, int height, int backgroundColor) : 
 	Screen(name,width,height,backgroundColor)
 {
@@ -44,8 +45,8 @@ void ScreenSFML::render()
 void ScreenSFML::clean()
 {
 	_window.clear(Color(0,0,0));
+    //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
-
 
 void ScreenSFML::update()
 {
