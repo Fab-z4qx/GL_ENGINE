@@ -14,6 +14,8 @@ namespace e3d {
     {
     private:
         sf::RenderWindow _window;
+        
+        vector<GLdouble> _vertices;
         vector<sf::Vertex> _line;
         vector<sf::Vertex> _point;
         

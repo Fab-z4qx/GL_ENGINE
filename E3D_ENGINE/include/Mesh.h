@@ -12,13 +12,17 @@
 #include "Polygone.h"
 #include "Material.h"
 
+#define GLEW_STATIC
+#include <SFML/OpenGL.hpp>
+//#include <glm/glm.hpp>
+
 using namespace std;
 
 namespace e3d{
 
 class Mesh : public Object
 {
-protected: 
+protected:
 	vector<Vector4> _vertex;
 	vector<Polygone> _polygone;
 	//vector<Material> _materiaux; //Tableau pour appliquer des textures à un objet
