@@ -25,6 +25,7 @@ namespace e3d {
 class Render
 {
 private:
+    
 	Camera *_camera;
 	Screen *_screen;
 	Node* _rootNode;

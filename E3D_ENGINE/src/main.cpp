@@ -53,12 +53,12 @@ void exemple()
 
 	Node n3(&n2,"subnode2");
 	n3.attachMovableObject(&myen4);
-     */
+    
      
 	Node n4(&n,"subNode3");
 	n4.attachMovableObject(&myen5);
 	n4.translate(-20,20,0);
-     
+    */
     
 	n.translate(20,-15,0); 
 	myen.translate(20,0,0);
@@ -97,9 +97,53 @@ void exemple()
 	Object::cleanPool();
 }
 
+
+void test(){
+    Sphere s5("spdzqehre2",Vector4(0,0,0,1),30,5);
+    Entity myen5("Entitdy2",&s5);
+    
+    Cube cu("cube",Vector4(0,0,0,1),50,50,50);
+    Entity cube("Encube",&cu);
+    
+    Node n("rootNode");
+    n.attachMovableObject(&cube);
+    n.translate(100,-50,0);
+    
+    cube.rotateX(PI/6);
+    cube.rotateY(PI/6);
+    
+    n.translate(20,-15,0);
+    myen5.translate(100,0,0);
+    myen5.rotateX(PI/6);
+    
+    Vector4 camPos(-25,+25,0,1); //position de la cam
+    double fov = 10;
+    double neaR = 0.1, faR = 25;
+    
+    Camera cam("Mycam",camPos,fov,neaR,faR);
+    Render r(&cam,&n,"Experiment", e3d_SFMLGLRender, 1280, 1280);
+    
+    
+    Debug dbg;
+    fpsCount fps;
+    dbg.fpsInit(&fps);
+    while(1)
+    {
+        r.clean(); //On efface l'image
+        
+        n.rotateY(PI / 400);
+        r.start(); //On fais le rendu à partir du RootNode
+        r.update(); //On met à jour l'image
+        
+        dbg.fpsMesure(&fps);
+    }	
+    
+    Object::cleanPool();
+}
+
 int main(void)
 {
-	exemple();
+	test();
     system("PAUSE");
     
     return 0;
